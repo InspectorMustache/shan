@@ -3,10 +3,6 @@ __pycache__/
 dist/
 build/
 
-sources
-schemes
-output
-templates
-sources.yaml
 .tags
 .cache
+debug.log
