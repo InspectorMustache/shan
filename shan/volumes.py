@@ -33,17 +33,18 @@ class Volume():
             return None
 
     def _get_str_representation(self):
-        """Return a string representation for the TUI."""
-        if self.is_mounted:
-            mount_char = 'X'
-            path = self.mount_point
-        else:
-            mount_char = 'O'
-            path = self.unix_id
+        # """Return a string representation for the TUI."""
+        # if self.is_mounted:
+        #     mount_char = 'X'
+        #     path = self.mount_point
+        # else:
+        #     mount_char = 'O'
+        #     path = self.unix_id
 
-        str_ = '\t'.join([mount_char, path,
-                          self.uuid, self.name])
-        return str_
+        # str_ = '\t'.join([mount_char, path,
+        #                   self.uuid, self.name])
+        # return str_
+        pass
 
 
 def get_volume_list():
